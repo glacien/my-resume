@@ -4,7 +4,7 @@
   "description": "Abdulka Yaroslav resume",
   "default": "index.html",
   "scripts": {
-    "start": "npx parcel index.html",
+    "start": "npx parcel index.html --dist-dir ./dist",
     "build": "npx parcel build index.html --dist-dir ./dist"
   },
   "author": "glacien",
